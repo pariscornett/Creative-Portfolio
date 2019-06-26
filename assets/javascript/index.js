@@ -16,14 +16,14 @@ $(".enter").on("click", function(){
             console.log(2);
            $(".intro").html("<h1 id = hello>Hello</h1>");  
            $(".intro").fadeIn(1000);
-        },3000
+        },2000
     );
     console.log(3);
     setTimeout (
         function() {
             console.log(4);
             $(".intro").fadeOut(1000);
-        },6000
+        },4000
     );
     console.log(5);
     setTimeout (
@@ -31,14 +31,14 @@ $(".enter").on("click", function(){
             console.log(6);
             $(".name").html("<p id = name>I'm Paris</p>")
             $(".name").fadeIn(1000);
-        },9000
+        },6000
     );
     console.log(7);
     setTimeout (
         function() {
             console.log(8);
             $(".name").fadeOut(1000);
-        },12000
+        },8000
     ); 
     console.log(9);
     setTimeout (
@@ -46,18 +46,18 @@ $(".enter").on("click", function(){
             console.log(10,)
             $(".portfolio").html("<p id = portfolio>This is My Portfolio</p>");
             $(".portfolio").fadeIn(1000);
-        },15000
+        },10000
     );
     console.log(11);
     setTimeout (
         function() {
             $(".portfolio").fadeOut(1000);  
-        },18000
+        },12000
     );
     setTimeout (
         function() {
             portfolio();
-        }, 21000
+        }, 14000
     )
    
     
@@ -73,5 +73,13 @@ function portfolio () {
 }
 
 $("#github").on("click", function(){
+    $("#github").append("<img class = valign-center src = assets/images/github2.png>");
+})
 
+$("#linkedin").on("click", function(){
+    $("#linkedin").append("<img class = valign-center src = assets/images/linkedin2.png>");
+})
+
+$("#email").on("click", function(){
+    $("#email").append("<img class = valign-center src = assets/images/github2.png>");
 })
