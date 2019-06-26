@@ -8,11 +8,20 @@ body {
     left: 600px;
 }
 
-#hello, #name {
+#hello {
     color: #99CCFF;
     font-size: 200px;   
     position:relative;
     top: 100px;
 
 }
+
+#name, #portfolio {
+    color: #99CCFF;
+    font-size: 100px;   
+    position:relative;
+    top: 100px;
+    text-align:center;
+}
+
 
