@@ -1,0 +1,18 @@
+body {
+    background-color: #aca0b0;
+}
+
+#bot, #bot2 {
+    position: fixed;
+    top: 200px;
+    left: 600px;
+}
+
+#hello, #name {
+    color: #99CCFF;
+    font-size: 200px;   
+    position:relative;
+    top: 100px;
+
+}
+
