@@ -55,7 +55,7 @@ $(".enter").on("click", function(){
     setTimeout (
         function() {
             portfolio();
-        }, 1000
+        }, 6000
     )
    
     
@@ -63,12 +63,13 @@ $(".enter").on("click", function(){
 
 function portfolio () {
     $(".button-dump").fadeIn(1000);
-    // $(".button-dump").append("<img id = github class = valign-center src = assets/images/github.png href = https://github.com/pariscornett>");
+    $(".button-dump").append("<a href=https://github.com/pariscornett><img id=github class=valign-center src=assets/images/github.png></a>");
     // $(".button-dump").fadeIn(1000);
     // $(".button-dump").append("<img id = linkedin class = valign-center src = assets/images/linkedin.png href = https://github.com/pariscornett>");
-    // $(".button-dump");
+    $(".button-dump");
+    $(".button-dump").append("<a href=https://www.linkedin.com/in/paris-cornett-486b63176><img id=linkedin class=valign-center src=assets/images/linkedin.png></a>")
     // $(".button-dump").append("<img id = email class = valign-center src = assets/images/email.png href = # >");
-    // $(".button-dump");
+    $(".button-dump").append("<a href=https://google.com><img id=email class=valign-center src=assets/images/email.png></a>");
 }
 
 $("#github").on("click", function(){
