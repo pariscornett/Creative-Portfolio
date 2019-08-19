@@ -8,11 +8,12 @@ body {
     left: 600px;
 }
 
-#hello {
+#welcome {
     color: #99CCFF;
     font-size: 200px;   
     position:relative;
     top: 100px;
+    left: -150px;
 
 }
 
