@@ -40,6 +40,6 @@ function showPortfolio () {
     $(".button-dump").append("<a href=https://www.linkedin.com/in/paris-cornett-486b63176 target=_blank><img id=linkedin class=valign-center z-depth-2 src=assets/images/linkedin2.png></a>")
     $(".button-dump").append("<a href=mailto:pariscornett@gmail.com><img id=email class=valign-center z-depth-2 src=assets/images/email2.png></a>");
     $(".logo").fadeIn(1000);
-    $(".logo").append("<img class=logo src=assets/images/pariscornett2.png>");
+    $(".logo").append("<img class=logo valign-center src=assets/images/pariscornett2.png>");
     $(".bio").fadeIn(1000);
 };

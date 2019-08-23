@@ -13,7 +13,7 @@ body {
     font-size: 200px;   
     position:relative;
     top: 100px;
-    left: -50px;
+    left: -210px;
 
 }
 
@@ -27,19 +27,19 @@ body {
 
 #github {
     position:relative;
-    top: 250px;
+    top: 500px;
 }
 
 #email {
     position: relative;
     left: 500px;
-    top: 250px;
+    top: 500px;
 }
 
 #linkedin {
     position:relative;
     left: 250px;
-    top: 250px;
+    top: 500px;
 }
 
 .logo {
@@ -49,8 +49,9 @@ body {
 }
 
 .bio {
-    position:relative;
-    top: 100px;
     color: #99CCFF;
+    text-align:center;
+    position:relative;
+    top: 350px;
     font-size: 20px; 
 }
