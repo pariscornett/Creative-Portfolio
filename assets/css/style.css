@@ -1,5 +1,8 @@
 body {
+    margin-bottom: 200px;
     background-color: #aca0b0;
+    overflow-y: scroll;
+    overflow-x: scroll;
 }
 
 #bot, #bot2 {
@@ -27,19 +30,19 @@ body {
 
 #github {
     position:relative;
-    top: 500px;
+    top: 1000px;
 }
 
 #email {
     position: relative;
     left: 500px;
-    top: 500px;
+    top: 1000px;
 }
 
 #linkedin {
     position:relative;
     left: 250px;
-    top: 500px;
+    top: 1000px;
 }
 
 .logo {
@@ -54,4 +57,9 @@ body {
     position:relative;
     top: 350px;
     font-size: 20px; 
+}
+
+.project-images {
+    position:absolute;
+    top: 700px;
 }
