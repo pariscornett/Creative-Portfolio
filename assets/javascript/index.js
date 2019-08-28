@@ -5,6 +5,7 @@ $(".enter").append("<img id = bot class = valign-center src = assets/images/bot.
 $(".intro").hide();
 $(".button-dump").hide();
 $(".bio").hide();
+$(".project-images").hide();
 
 //makes bot clickable, change colors when clicked, and then lead to the rest of portfolio page
 $(".enter").on("click", function(){
@@ -43,5 +44,4 @@ function showPortfolio () {
     $(".logo").append("<img class=logo valign-center src=assets/images/pariscornett2.png>");
     $(".bio").fadeIn(1000);
     $(".project-images").fadeIn(1000);
-    $(".project-images").append("<h6 class=valign-center id=giftastic-title>GifTastic</h6><img id=giftastic src=assets/images/giftastic.png> <br> <a target=_blank id=giftastic-code href=https://github.com/pariscornett/gifTastic>Code</a> <a target=_blank id=giftastic-site href=https://pariscornett.github.io/gifTastic>Website</a>");
 };

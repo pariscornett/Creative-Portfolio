@@ -16,7 +16,7 @@ body {
     font-size: 200px;   
     position:relative;
     top: 100px;
-    left: -210px;
+    left: -220px;
 
 }
 
@@ -62,4 +62,36 @@ body {
 .project-images {
     position:absolute;
     top: 700px;
+}
+
+.giftastic {
+    border-radius: 15px;
+    background-color: #99CCFF;
+    opacity: 0.8;
+}
+
+#giftastic-title {
+    position:relative;
+    text-align:center;
+}
+
+#giftastic-image {
+    position: relative;
+    left: 190px;
+}
+
+#giftastic-desc {
+    text-align:center;
+}
+
+#giftastic-code {
+    text-align:center;
+    position: relative;
+    left: 100px;
+}
+
+#giftastic-site {
+    text-align:center;
+    position: relative;
+    left: 140px;
 }
