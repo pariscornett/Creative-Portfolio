@@ -64,33 +64,33 @@ body {
     top: 700px;
 }
 
-.giftastic {
+.giftastic, .herbal {
     border-radius: 15px;
     background-color: #99CCFF;
     opacity: 0.8;
 }
 
-#giftastic-title {
+#giftastic-title, #herbal-title {
     position:relative;
     text-align:center;
 }
 
-#giftastic-image {
+#giftastic-image, #herbal-image {
     position: relative;
     left: 190px;
 }
 
-#giftastic-desc {
+#giftastic-desc, #herbal-desc {
     text-align:center;
 }
 
-#giftastic-code {
+#giftastic-code, #herbal-code {
     text-align:center;
     position: relative;
     left: 100px;
 }
 
-#giftastic-site {
+#giftastic-site, #herbal-site {
     text-align:center;
     position: relative;
     left: 140px;
