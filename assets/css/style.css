@@ -60,12 +60,11 @@ body {
 }
 
 .project-images {
-    position:absolute;
-    top: 700px;
+    position: absolute;
+    top: 500px;
 }
 
 .giftastic, .herbal {
-    border-radius: 15px;
     background-color: #99CCFF;
     opacity: 0.8;
 }
