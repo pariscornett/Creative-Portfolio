@@ -59,12 +59,10 @@ body {
     font-size: 20px; 
 }
 
-.project-images {
+.giftastic, .herbal {
     position: absolute;
     top: 500px;
-}
-
-.giftastic, .herbal {
+    padding: 10px;
     background-color: #99CCFF;
     opacity: 0.8;
 }
@@ -72,6 +70,7 @@ body {
 #giftastic-title, #herbal-title {
     position:relative;
     text-align:center;
+
 }
 
 #giftastic-image, #herbal-image {
